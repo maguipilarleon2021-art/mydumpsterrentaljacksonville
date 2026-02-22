@@ -1,0 +1,172 @@
+    <br><br><br><br>
+
+<div id="faq-section" class="faq-section-wrapper">
+
+  <style>
+    /* ============== Scoped FAQ styles ============== */
+    .faq-section-wrapper {
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #918198 0%, #3d2343 50%, #ffffff 100%);
+      border-radius: 16px;
+      color: #e0e0e0;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      margin: 0 15px;
+    }
+
+    .faq-section-wrapper .faq-title {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: antiquewhite;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      margin-bottom: 2.5rem;
+    }
+
+    .faq-section-wrapper .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+
+    .faq-section-wrapper .faq-content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .faq-section-wrapper .faq-item {
+      background: rgba(255,255,255,0.92);
+      color: #222;
+      padding: 1.6rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .faq-section-wrapper .faq-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+    }
+
+    .faq-section-wrapper .faq-question {
+      margin: 0 0 0.9rem 0;
+      font-size: 1.32rem;
+      font-weight: 700;
+      color: #0d47a1;
+      line-height: 1.35;
+    }
+
+    .faq-section-wrapper .faq-answer {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* Make the image side sticky/fixed on scroll */
+    .faq-section-wrapper .faq-image-side {
+      position: sticky;
+      top: 20px; /* Adjust this value if you have a fixed navbar/header (e.g., 80px or 100px) */
+      align-self: start; /* Keeps it aligned to the top of the grid row */
+      height: fit-content; /* Prevents stretching */
+    }
+
+    .faq-section-wrapper .faq-image-side img {
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.25);
+      object-fit: cover;
+    }
+
+    /* Mobile: Disable sticky behavior and revert to normal flow */
+    @media (max-width: 992px) {
+      .faq-section-wrapper .faq-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .faq-section-wrapper .faq-title {
+        font-size: 2.1rem;
+      }
+
+      .faq-section-wrapper .faq-image-side {
+        position: static; /* No sticky on mobile */
+        top: auto;
+      }
+    }
+  </style>
+
+  <div class="faq-wrapper">
+    <h2 class="faq-title" style="font-size: 35px;">Frequently Asked Questions</h2>
+
+    <div class="faq-grid">
+      <!-- Left column - Questions & Answers -->
+      <div class="faq-content">
+        <div class="faq-item">
+          <h4 class="faq-question">1. What size dumpster do I need for my project?</h4>
+          <div class="faq-answer">
+            The right size depends on your specific project type and volume of waste. A 10-yard dumpster typically handles small cleanouts and minor renovations. 20-yard containers work well for medium bathroom or kitchen remodels and garage cleanouts. 30-yard dumpsters accommodate larger renovation projects and estate cleanouts. 40-yard containers are designed for major construction, demolition, or commercial projects. Our team can assess your needs over the phone and recommend the most cost-effective size based on your description.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">2. How quickly can you deliver a dumpster?</h4>
+          <div class="faq-answer">
+            In most areas across the United States, we offer same-day or next-day delivery when you call before noon. Delivery times vary by location and seasonal demand, but we prioritize urgent requests whenever possible. For scheduled projects, booking 2-3 days in advance ensures your preferred delivery window.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">3. What items cannot go in your dumpsters?</h4>
+          <div class="faq-answer">
+            We cannot accept hazardous materials including paint, chemicals, asbestos, batteries, tires, electronics, refrigerants, or medical waste. These items require specialized disposal. We can, however, handle most construction debris, household junk, yard waste, furniture, appliances (with refrigerants removed), and general trash. When in doubt, call us with a specific list and we'll clarify what's acceptable.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">4. How long can I keep the dumpster?</h4>
+          <div class="faq-answer">
+            Our standard rental period is 7-10 days, which accommodates most residential and commercial projects. If you need the container longer, we offer flexible extensions at reasonable daily rates. For estate cleanouts or complex renovations, we can arrange multi-week rentals upfront. Just let us know your timeline when booking.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <h4 class="faq-question">5. Do I need a permit to place a dumpster on my property?</h4>
+          <div class="faq-answer">
+            Permits are typically not required when placing a dumpster on private property like your driveway or construction site. However, if you need to place the container on a public street, sidewalk, or right-of-way, most municipalities require a permit. Requirements vary significantly by city and county. We can provide guidance for your specific location and in many cases help facilitate the permit process.
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 100px; font-family: Verdana, Geneva, Tahoma, sans-serif">
+          <a href="tel:850-332-9639" class="btn-hover-bg btn btn-secondary text-white py-2 px-4 me-3" style="background-color: red; border: solid white; font-size:medium;">CLICK HERE TO CALL US (850) 332-9639</a>
+        </div>
+      </div>
+
+      <!-- Right column - Image (now sticky on desktop) -->
+      <div class="faq-image-side">
+        <img src="static/images/lockley.jpg" alt="Dumpster Rental Unit" />
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">States In USA</h2>
+        <div class="row">
+            aloomaidallfotter
+        </div>
+        </section>
+    </div>
+
+    <br><br><br><br>
+    <div class="containeralooma" style="background-color: transparent; width: 100%;">
+        <section class="boxalooma" style="text-align: center;">
+        <h2 class="heading-with-line template4 h2alooma">Most popular cities we serve</h2>
+        <div class="row">
+            aloomaidallfottecity
+        </div>
+        </section>
+    </div>
